@@ -19,11 +19,18 @@ exports.onCreateWebpackConfig = ({ actions }) => {
         Static: path.resolve(__dirname, 'static'),
 
         // SRC
-        Assets: path.resolve(__dirname, 'src/assets'),
-        Components: path.resolve(__dirname, 'src/components'),
         Firebase: path.resolve(__dirname, 'src/firebase'),
-        Layouts: path.resolve(__dirname, 'src/layouts'),
         Pages: path.resolve(__dirname, 'src/pages'),
+
+        // ASSETS
+        Images: path.resolve(__dirname, 'src/assets/img'),
+
+        // UI
+        Base: path.resolve(__dirname, 'src/ui/base'),
+        Components: path.resolve(__dirname, 'src/ui/components'),
+        Elements: path.resolve(__dirname, 'src/ui/elements'),
+        Layouts: path.resolve(__dirname, 'src/ui/layouts'),
+        Modules: path.resolve(__dirname, 'src/ui/modules'),
       },
     },
   })

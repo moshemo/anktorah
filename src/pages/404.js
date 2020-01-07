@@ -1,7 +1,7 @@
-import React from "react"
+import React from 'react'
 
-import SEO from "Components/seo"
-import ErrorLayout from "Layouts/error"
+import SEO from 'Components/seo'
+import ErrorLayout from 'Layouts/error'
 
 const ErrorPage = () => (
   <ErrorLayout>

@@ -8,7 +8,8 @@ module.exports = {
   },
   plugins: [
     // PLUGINS
-    `gatsby-plugin-offline`,
+    // `gatsby-plugin-emotion`,
+    // `gatsby-plugin-offline`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-sharp`,
     `gatsby-plugin-styled-components`,
